@@ -2,5 +2,5 @@
 
 fork from https://github.com/stoway/TronNet
 
-Re-Build to .netcore 3.1
+Rebuild to .netcore 3.1
 
