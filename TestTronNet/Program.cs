@@ -30,13 +30,12 @@ namespace TestTronNet
         public static void GenerateWalletOfflice()
         {
 
-            var key = TronECKey.GenerateKey(TronNetwork.TestNet);
+            var key = TronECKey.GenerateKey(TronNetwork.MainNet);
 
             var address = key.GetPublicAddress();
 
             Console.WriteLine(address);
-
-
+            
         }
 
 
