@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\src\TronNet.ABI\TronNet.ABI.csproj" />
+    <ProjectReference Include="..\src\TronNet.Crypto\TronNet.Crypto.csproj" />
+    <ProjectReference Include="..\src\TronNet.Protocol\TronNet.Protocol.csproj" />
+    <ProjectReference Include="..\src\TronNet\TronNet.csproj" />
+  </ItemGroup>
+
+</Project>
