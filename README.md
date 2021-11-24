@@ -53,7 +53,6 @@ Code Sample:
                 x.Network = TronNetwork.MainNet;
                 x.Channel = new GrpcChannelOption { Host = "47.252.19.181", Port = 50051 };
                 x.SolidityChannel = new GrpcChannelOption { Host = "47.252.19.181", Port = 50052 };
-                // x.ApiKey = "089bc2e1-6ae0-473e-a339-fe50fd68c558";
                 //原本以為要填寫，似乎不填寫也可以用
                 x.ApiKey = "apikey";
             });
