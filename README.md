@@ -83,7 +83,7 @@ Code Sample:
 ```
 
 
-3.USDC transation
+3.USDT(trc20) transation
 
 
 ```cs
