@@ -27,7 +27,7 @@ Code Sample:
 
 ```
 
-2.Create TRX tracation.
+2.Create TRX transation.
 
 
 ```cs
